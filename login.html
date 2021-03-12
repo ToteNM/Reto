@@ -28,42 +28,26 @@
             </li>
         </ul>
         <ul>
-            <li><a class="right-link" href="about.html">Acerca de</a></li>
+            <li><a class="right-link" href="index.html">Home</a></li>
             <li><a class="right-link" href="indicadores.html">Indicadores</a></li>
             <li><a class="right-link" href="login.html">Login</a></li>
             <li><a class="right-link" href="register.html">Registrarse</a></li>
         </ul>
     </nav>
 
-    <!-- Sección del Logo-->
-    <section id="logo">
-        <img class="logo" src="IMG/whiteLogo.png">
-    </section>
-
-    <br>
-    <!-- Galería más texto-->
-    <section id="gallery-text">
-        <div class="gallery">
-            <h1>Galería de imágenes</h1>
-            <img src="IMG/ss1.jpeg" width="400px" height=auto>
-        </div>
-        <div class="text">
-            <h1>¿Podrás llegar al espacio?</h1>
-            <div class="text-container">
-                <p>Toma el control de un intrépido astronauta y ayúdalo a completar todas su misiones para llegar al espacio. Piensa, analiza, y usa tu creatividad para resolver los acertijos, problemas y obstáculos que están en tu camino para llevar a tu
-                    nave hacia un <span class="main-txt">planeta desconocido</span>.
-                </p>
+    <section id="form">
+        <h1>Ingresa</h1>
+        <form action="" class="login-form">
+            <div class="form-tag">
+                <label for="username"></label>
+                <input type="text" name="username" id="username" placeholder="Ingresa usuario">
             </div>
-        </div>
-    </section>
-
-    <section id="game">
-        <div class="title">
-            <h1>Descarga el juego</h1>
-        </div>
-        <div class="link">
-            <a href="#">EscapeToSpace.exe</a>
-        </div>
+            <div class="form-tav">
+                <label for="password"></label>
+                <input type="password" name="pw" id="pw" placeholder="Ingresa contraseña">
+            </div>
+            <input type="submit" value="Enviar" id="submit" class="btn">
+        </form>
     </section>
 
     <footer id="footer">
@@ -75,6 +59,7 @@
             <img src="IMG/steam.png" alt="TEC">
         </div>
     </footer>
+
 </body>
 
 </html>

@@ -176,11 +176,15 @@ a {
 }
 
 #footer {
-    padding: 0 20% 0 20%;
+    padding-right: 10%;
+    padding-left: 10%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: black;
+    position: fixed;
+    bottom: 0;
 }
 
 #footer img {
@@ -214,6 +218,63 @@ a {
     font-family: Roboto, sans-serif;
     font-size: 20px;
     margin-bottom: 30px;
+}
+
+#form {
+    padding: 90px;
+}
+
+#form h1 {
+    font-family: Astro;
+    font-size: 30px;
+}
+
+#form label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#form input {
+    width: 30%;
+    padding: 4px;
+    height: 40px;
+    border: #f5f5f5 1px solid;
+}
+
+#form .btn {
+    font-family: Nebula;
+    font-size: 20px;
+    padding: 12px;
+    margin-top: 20px;
+    background: var(--main-color)
+}
+
+#form .btn:hover {
+    background: gold;
+}
+
+#charts {
+    margin-top: 100px;
+}
+
+#charts img {
+    height: 400px;
+    width: auto;
+}
+
+#charts h1 {
+    font-family: Astro;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+
+#charts .charts-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 50px;
+    margin: 0 10% 0 10%;
 }
 
 
